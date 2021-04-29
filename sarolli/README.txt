@@ -1,14 +1,19 @@
+A small animation i made with my girlfrierd after having watched the last episode of The Mandalorian.
+Masks made in illustrator, animation made in python3.
 
+
+
+if you want to run or reuse the code: 
 - first of all, u need these three useful dudes
 
-pip3 install pygame
-pip3 install opencv-python
-pip3 install moviepy
+$ pip3 install pygame
+$ pip3 install opencv-python
+$ pip3 install moviepy
 
 - once u got these three requirements
 --first launch this (you need pygame for this)
 
-python3 visualize.py
+$ python3 visualize.py
  
    this will create a frame sequence in "snaps" directory
    the hard job is pretty much done entirely here:
@@ -25,7 +30,7 @@ python3 visualize.py
 
 --then launch this (you need opencv and moviepy for this)
 
-python3 generate.py
+$ python3 generate.py
 
   this is merely a snaps2video subroutine. we generate a mute movie with opencv
   (maybe vwe can cut out opencv from this pipe, once and if i get better with moviepy)
