@@ -3,7 +3,7 @@ Masks made in illustrator, animation made in python3.
 
 
 
-if you want to run or reuse the code: 
+if you want to run or reuse some parts of the code: 
 - first of all, u need these three useful dudes
 
 $ pip3 install pygame
@@ -13,12 +13,15 @@ $ pip3 install moviepy
 - once u got these three requirements
 --first launch this (you need pygame for this)
 
-$ python3 visualize.py
+$ python3 animate.py
  
    this will create a frame sequence in "snaps" directory
    the hard job is pretty much done entirely here:
-   each image can be converted in a pygame sprite, so we can use 
-   pygame as a very rude animation driver
+   -blit
+   -alphas
+   -transitions
+   each image can be converted in a pygame sprite, so we also can use 
+   pygame as a very rude real time animation driver
 
    please note that we can choose to obtain an effect by playin on three different levels
    1: real time effects: effect must be pretty light, in order to be processed in 
