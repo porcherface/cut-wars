@@ -3,9 +3,9 @@ Masks made in illustrator, animation made in python3.
 
 
 
-if you want to run or reuse some parts of the code: 
+# if you want to run or reuse some parts of the code: 
 - first of all, u need these three useful dudes
-
+1
 $ pip3 install pygame
 $ pip3 install opencv-python
 $ pip3 install moviepy
